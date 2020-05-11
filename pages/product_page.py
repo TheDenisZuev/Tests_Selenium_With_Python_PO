@@ -17,3 +17,7 @@ class ProductPage(BasePage):
         assert book_price == cart_total_price, f"Added book price is not equal count in cart. Our price {book_price} " \
                                              f"Actual result {cart_total_price}"
 
+    def should_not_be_success_message(self):
+        assert self.is_not_element_present(*ProductPageLocators.SUCCESS_MESSAGE), \
+            "Success message is presented, but should not be"
+
