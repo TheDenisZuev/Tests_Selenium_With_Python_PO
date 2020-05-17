@@ -14,3 +14,6 @@ class ProductPageLocators():
     CART_TOTAL_PRICE = (By.XPATH, "//div[@class='alertinner ']//p//strong")
     ADDED_BOOK_NAME = (By.XPATH, "(//div[@id='messages']//strong)[1]")
     SUCCESS_MESSAGE = (By.XPATH, "(//div[@id='messages']//div[@class='alertinner '])[1]")
+
+class BasePageLocators():
+    LOGIN_LINK = (By.XPATH, "//a[@id='login_link']")
