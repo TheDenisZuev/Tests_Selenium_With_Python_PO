@@ -17,3 +17,8 @@ class ProductPageLocators():
 
 class BasePageLocators():
     LOGIN_LINK = (By.XPATH, "//a[@id='login_link']")
+    BASKET_LINK = (By.XPATH, "//span[@class='caret']/parent::*/preceding-sibling::a")
+
+class BasketPageLocators():
+    BASKET_ITEM = (By.XPATH, "//div[@class='basket-items']")
+    BASKET_EMPTY_MESSAGE = (By.CSS_SELECTOR, "#content_inner > p")
