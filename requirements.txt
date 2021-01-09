@@ -1,5 +1,5 @@
 py==1.8.1
-pytest==5.1.1
+pytest==4.6.6
 selenium==3.14.0
 lxml-4.6.2-cp38-cp38-win_amd64.whl
 pytest-allure-adaptor
